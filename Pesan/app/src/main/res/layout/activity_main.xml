@@ -32,23 +32,32 @@
         android:src="@mipmap/ic_launcher"
         android:layout_marginBottom="20dp"
         />
-<androidx.cardview.widget.CardView
-    android:id="@+id/cv_write"
-    android:layout_marginBottom="20dp"
-    android:layout_below="@+id/iv_android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <EditText
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_write"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/iv_android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Write Something"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btn_kirim"
+        android:layout_below="@+id/cv_write"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:hint="Write Something"
-        android:textSize="20dp"
-        android:padding="10dp"
+        android:text="Kirim"
+        android:layout_marginBottom="20dp"
         />
-</androidx.cardview.widget.CardView>
     <TextView
-        android:layout_below="@+id/cv_write"
+        android:layout_below="@+id/btn_kirim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
