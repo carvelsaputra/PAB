@@ -1,2 +1,3 @@
 # PAB-UTS
-Ujian Tengah Semester 2020/2021
+Pemrograman Aplikasi Bergerak I
+pengenalan bahasa pemrograman java yang digunakan untuk membuat aplikasi mobile
