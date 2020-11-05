@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello Toast</string>
+    <string-array name="list_prodi">
+        <item>Teknik Informatika</item>
+        <item>Sistem Informasi</item>
+        <item>Manajemen Informatika</item>
+        <item>Manajemen</item>
+        <item>Akuntansi</item>
+    </string-array>
+</resources>
